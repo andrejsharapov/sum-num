@@ -1,7 +1,7 @@
 # Sum Num
 
 <p align="center">
-<img src="https://github.com/andrejsharapov/sum-num/blob/main/icon.svg?raw=true" alt="Sum Num">
+<img src="https://github.com/andrejsharapov/sum-num/blob/main/icon.png?raw=true" alt="Sum Num">
 </p>
 
 <!-- 
