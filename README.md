@@ -2,7 +2,7 @@
 
 VSCode extension: Calculates the sum of selected numbers in rows or random columns and displays them in the status bar.
 
-![Sum Num](icon.png)
+![Sum Num](https://github.com/andrejsharapov/sum-num/blob/main/icon.png?raw=true)
 
 ## Features
 
@@ -109,4 +109,4 @@ Automatically displays the result of calculating the current sum of the selected
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/andrejsharapov/sum-num/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/andrejsharapov/sum-num/blob/main/LICENSE) file for details.
