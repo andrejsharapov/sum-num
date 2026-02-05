@@ -1,0 +1,22 @@
+# VS Code
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Node
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Build
+out/
+dist/
+*.vsix
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/

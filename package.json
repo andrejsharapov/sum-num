@@ -1,0 +1,59 @@
+{
+    "name": "sum-num",
+    "displayName": "Sum Num",
+    "description": "Calculate the sum of selected numbers in rows or random columns and display them in the status bar.",
+    "version": "0.0.1",
+    "publisher": "andrejsharapov",
+    "private": false,
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Formatters",
+        "Other",
+        "Visualization"
+    ],
+    "activationEvents": [
+        "onStartupCompleted"
+    ],
+    "main": "./extension.js",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrejsharapov/sum-num"
+    },
+    "homepage": "https://github.com/andrejsharapov/sum-num#readme",
+    "bugs": {
+        "url": "https://github.com/andrejsharapov/sum-num/issues"
+    },
+    "author": {
+        "name": "Andrej Sharapov",
+        "url": "https://github.com/andrejsharapov"
+    },
+    "keywords": [
+        "analysis",
+        "calculation",
+        "calculator",
+        "data",
+        "markdown",
+        "math",
+        "numbers",
+        "selection",
+        "spreadsheet",
+        "sum",
+        "table",
+        "total"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "sumSelected.calculate",
+                "title": "Calculate Sum"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package"
+    }
+}
