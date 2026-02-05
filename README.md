@@ -1,6 +1,6 @@
 # Sum Num
 
-<p aling="center">
+<p align="center">
 <img src="https://github.com/andrejsharapov/sum-num/blob/main/icon.png?raw=true" alt="Sum Num">
 </p>
 
