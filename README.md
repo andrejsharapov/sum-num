@@ -1,14 +1,22 @@
 # Sum Num
 
 <p align="center">
-<img src="https://github.com/andrejsharapov/sum-num/blob/main/icon.png?raw=true" alt="Sum Num">
+    <a href="https://github.com/andrejsharapov/sum-num">
+        <img src="https://github.com/andrejsharapov/sum-num/blob/main/icon.png?raw=true" alt="Sum Num">
+    </a>
 </p>
 
-<!-- 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/andrejsharapov.sum-num)
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/andrejsharapov.sum-num)
-![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/andrejsharapov.sum-num)
--->
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=4CAF50&label=VERSION" alt="Current Version">
+    </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Installations">
+    </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Rating">
+    </a>
+</p>
 
 VSCode extension: Calculates the sum of selected numbers in rows or random columns and displays them in the status bar.
 
@@ -48,7 +56,6 @@ Automatically calculates and displays the sum of selected numbers directly in th
 | 30    | 5762  | 37742    |
 
 Automatically displays the result of calculating the current sum of the selected numbers.
-
 
 **Example 1:** Single Row Selection
 
@@ -123,6 +130,14 @@ Found a bug? Have a feature request? Please open an [issue][i].
 
 This project is licensed under the MIT License - see the [LICENSE][l] file for details.
 
+<!-- links -->
 
 [i]: https://github.com/andrejsharapov/sum-num/issues/new
 [l]: https://github.com/andrejsharapov/sum-num/blob/main/LICENSE
+
+<!-- badges -->
+
+[mp]: https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num
+[mp-v]: https://img.shields.io/visual-studio-marketplace/v/andrejsharapov.sum-num
+[mp-d]: https://img.shields.io/visual-studio-marketplace/d/andrejsharapov.sum-num
+[mp-r]: https://img.shields.io/visual-studio-marketplace/r/andrejsharapov.sum-num
