@@ -15,7 +15,7 @@
         "Visualization"
     ],
     "activationEvents": [
-        "onStartupCompleted"
+        "*"
     ],
     "main": "./extension.js",
     "icon": "icon.png",
