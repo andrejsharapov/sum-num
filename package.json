@@ -2,7 +2,7 @@
     "name": "sum-num",
     "displayName": "Sum Num",
     "description": "Calculate the sum of selected numbers in rows or random columns and display them in the status bar.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "andrejsharapov",
     "private": false,
     "license": "MIT",
@@ -15,7 +15,8 @@
         "Visualization"
     ],
     "activationEvents": [
-        "*"
+        "onStartupFinished",
+        "onCommand:sumSelected.calculate"
     ],
     "main": "./extension.js",
     "icon": "icon.png",

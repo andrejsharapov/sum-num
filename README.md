@@ -1,8 +1,16 @@
 # Sum Num
 
-VSCode extension: Calculates the sum of selected numbers in rows or random columns and displays them in the status bar.
+<p aling="center">
+<img src="https://github.com/andrejsharapov/sum-num/blob/main/icon.png?raw=true" alt="Sum Num">
+</p>
 
-![Sum Num](https://github.com/andrejsharapov/sum-num/blob/main/icon.png?raw=true)
+<!-- 
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/andrejsharapov.sum-num)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/andrejsharapov.sum-num)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/andrejsharapov.sum-num)
+-->
+
+VSCode extension: Calculates the sum of selected numbers in rows or random columns and displays them in the status bar.
 
 ## Features
 
@@ -107,6 +115,14 @@ Automatically displays the result of calculating the current sum of the selected
 
 ---
 
+## Contributing
+
+Found a bug? Have a feature request? Please open an [issue][i].
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/andrejsharapov/sum-num/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE][l] file for details.
+
+
+[i]: https://github.com/andrejsharapov/sum-num/issues/new
+[l]: https://github.com/andrejsharapov/sum-num/blob/main/LICENSE
