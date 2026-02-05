@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=4CAF50&label=VERSION" alt="Current Version">
+    <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
+        <img src="https://img.shields.io/visual-studio-marketplace/v/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=4CAF50&label=VERSION" alt="Current Version">
     </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
-    <img src="https://img.shields.io/visual-studio-marketplace/i/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Installations">
+    <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
+        <img src="https://img.shields.io/visual-studio-marketplace/i/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Installations">
     </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
-    <img src="https://img.shields.io/visual-studio-marketplace/r/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Rating">
+    <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
+        <img src="https://img.shields.io/visual-studio-marketplace/r/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Rating">
     </a>
 </p>
 
