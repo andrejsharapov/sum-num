@@ -4,8 +4,6 @@ let statusBarItem;
 let updateTimeout;
 
 function activate(context) {
-    console.log('🔢 Sum extension activating...');
-
     createStatusBarItem();
     vscode.window.onDidChangeTextEditorSelection(updateSumFromSelection);
 
@@ -16,7 +14,6 @@ function activate(context) {
     context.subscriptions.push(calculateCommand, statusBarItem);
 
     setTimeout(() => updateSumFromSelection(), 500);
-    console.log('✅ Extension ready');
 }
 
 function createStatusBarItem() {
@@ -25,7 +22,7 @@ function createStatusBarItem() {
         9999
     );
 
-    statusBarItem.text = '$(calculator) Sum: 0';
+    statusBarItem.text = '$(calculator) Σ: 0';
     statusBarItem.tooltip = 'Sum of selected numbers';
     statusBarItem.command = 'sumSelected.calculate';
     statusBarItem.show();
@@ -64,9 +61,6 @@ function calculateAndShowSum(showNotification = false) {
 
         // ВСЕГДА используем улучшенный парсер с поддержкой разделителей тысяч
         const numbers = extractNumbersUniversal(text);
-
-        console.log('Text:', JSON.stringify(text), '→ Numbers:', numbers);
-
         if (numbers && numbers.length > 0) {
             hasNumbers = true;
             numbers.forEach(num => {
@@ -95,8 +89,8 @@ function extractNumbersUniversal(text) {
     const lines = text.split('\n');
     const hasTableMarkers = lines.some(line => line.includes('|'));
 
+    // Для таблиц используем специальную логику
     if (hasTableMarkers) {
-        // Для таблиц используем специальную логику
         return extractNumbersFromTableText(text);
     }
 
@@ -183,11 +177,11 @@ function updateStatusBar(total, count, hasNumbers) {
     if (!statusBarItem) return;
 
     if (hasNumbers && count > 0) {
-        statusBarItem.text = `$(calculator) ${formatNumber(total)}`;
+        statusBarItem.text = `$(calculator) Σ: ${formatNumber(total)}`;
         statusBarItem.tooltip = `Sum: ${formatNumber(total)} (${count} numbers)`;
         statusBarItem.backgroundColor = new vscode.ThemeColor('statusBarItem.warningBackground');
     } else {
-        statusBarItem.text = '$(calculator) 0';
+        statusBarItem.text = '$(calculator) Σ: 0';
         statusBarItem.tooltip = 'Select numbers to see sum';
         statusBarItem.backgroundColor = undefined;
     }

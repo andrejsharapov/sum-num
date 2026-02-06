@@ -2,7 +2,7 @@
     "name": "sum-num",
     "displayName": "Sum Num",
     "description": "Calculate the sum of selected numbers in rows or random columns and display them in the status bar.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "andrejsharapov",
     "private": false,
     "license": "MIT",
