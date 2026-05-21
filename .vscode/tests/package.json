@@ -1,0 +1,11 @@
+{
+    "name": "sum-num",
+    "version": "1.0.0",
+    "main": "./extension.js",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "activationEvents": [
+        "*"
+    ]
+}

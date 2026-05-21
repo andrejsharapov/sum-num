@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Load Test Extension",
+            "type": "shell",
+            "command": "code --extensions-dir .vscode/extensions",
+            "problemMatcher": []
+        }
+    ]
+}

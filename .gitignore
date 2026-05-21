@@ -2,6 +2,7 @@
 .vscode/*
 !.vscode/launch.json
 !.vscode/tasks.json
+!.vscode/tests/
 
 # Node
 node_modules/

@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.2
+
+- 
+
+## v1.0.1
+
+- Pretty code of extension
+- Remove logs
+
 ## v1.0.0
 
 ### Added

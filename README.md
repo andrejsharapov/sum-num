@@ -6,6 +6,10 @@
     </a>
 </p>
 
+<!-- build pack for marketplace:
+$ npm install -g @vscode/vsce
+$ vsce package -->
+
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
         <img src="https://img.shields.io/visual-studio-marketplace/v/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=4CAF50&label=VERSION" alt="Current Version">
@@ -14,7 +18,7 @@
         <img src="https://img.shields.io/visual-studio-marketplace/i/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Installations">
     </a>
     <a href="https://marketplace.visualstudio.com/items?itemName=andrejsharapov.sum-num">
-        <img src="https://img.shields.io/visual-studio-marketplace/r/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Rating">
+        <img src="https://img.shields.io/visual-studio-marketplace/d/andrejsharapov.sum-num?style=for-the-badge&colorA=263238&colorB=43A047" alt="Downloads">
     </a>
 </p>
 
